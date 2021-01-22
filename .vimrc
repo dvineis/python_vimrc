@@ -18,6 +18,7 @@ Plugin 'othree/html5.vim'
 Plugin 'Townk/vim-autoclose'
 Plugin 'nvie/vim-flake8'
 Plugin 'jnurmine/Zenburn'
+Plugin 'mattn/emmet-vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -34,6 +35,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 let g:SimpylFold_docstring_preview=1
 let python_highlight_all=1
+let g:user_emmet_leader_key='<C-g>'
 syntax on
 map <C-n> :NERDTreeToggle<CR>
 
